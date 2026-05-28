@@ -64,3 +64,23 @@ h4 {
     margin-top: -10px;
     margin-bottom: 50px;
 }
+
+.github{
+    border: 3px solid rgb(219, 109, 255);
+    border-radius: 10%;
+    background-color: rgb(227, 144, 255);
+    text-decoration: none;
+}
+
+.linkedin{
+    border: 3px solid rgb(219, 109, 255);
+    border-radius: 10%;
+    background-color: rgb(227, 144, 255);
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
