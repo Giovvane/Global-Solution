@@ -115,3 +115,11 @@
 .faq-item.ativo .faq-resposta {
   max-height: 200px;
 }
+
+.faq-item.ativo .faq-pergunta::after {
+  transform: rotate(90deg);
+}
+
+.lista-missões{
+  text-align: center;
+}
