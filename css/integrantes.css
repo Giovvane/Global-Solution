@@ -66,16 +66,16 @@ h4 {
 }
 
 .github{
-    border: 3px solid rgb(219, 109, 255);
+    border: 3px solid #E67451;
     border-radius: 10%;
-    background-color: rgb(227, 144, 255);
+    background-color: #E67451;
     text-decoration: none;
 }
 
 .linkedin{
-    border: 3px solid rgb(219, 109, 255);
+    border: 3px solid #E67451;
     border-radius: 10%;
-    background-color: rgb(227, 144, 255);
+    background-color: #E67451;
     text-decoration: none;
 }
 
