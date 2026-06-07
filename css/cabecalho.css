@@ -1,5 +1,5 @@
 .cabecalho {
-  background-color: #4c46e4; 
+  background-color: #E67451; 
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
@@ -27,8 +27,8 @@
 .cabecalho_bg {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #00d2ff;
-  color: #ffffff;
+  background-color: #FFF0E8;
+  color: #000000;
   text-decoration: none;
   border-radius: 5px;
   font-size: 0.9rem;
@@ -56,3 +56,4 @@ body{
   margin: 0;
   padding: 0;
 }
+

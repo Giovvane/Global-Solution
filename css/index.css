@@ -1,0 +1,24 @@
+.image-index{
+  display: block;
+  max-width: 500px;
+  max-height: 450px;
+  margin: 20px auto;
+}
+
+.index-cabecalho{
+  text-align: center;
+}
+
+.index-texto{
+  text-align: justify;
+  padding: 5px;
+}
+
+.paginas-comp{
+    text-align: center;
+}
+
+.outras-paginas{
+    display: inline-block;
+    padding: 5px;
+}
