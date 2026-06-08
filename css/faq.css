@@ -1,136 +1,136 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Define a área das caixas de texto*/
 
 .caixa-flutuante {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #ffffff;
-    width: 280px;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
 
 .caixa-flutuante h3 {
-    margin: 0;
-    font-size: 1rem;
-    color: #000000;
-  }
+  margin: 0;
+  font-size: 1rem;
+  color: #000000;
+}
 
 .caixa-flutuante textarea {
-    width: 100%;
-    height: 80px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: none;
-    box-sizing: border-box;
-  }
+  width: 100%;
+  height: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
 
 #btn-enviar-caixa {
-    background-color: #E67451;
-    color: white;
-    border: none;
-    padding: 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.2s;
-  }
+  background-color: #e67451;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
 
 #btn-enviar-caixa:hover {
-    background-color: #E67451;
-  }
+  background-color: #e67451;
+}
 
 .msg-discreta {
-    display: none;
-    padding: 8px;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-    animation: fadeIn 0.3s ease;
-  }
+  display: none;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+  animation: fadeIn 0.3s ease;
+}
 
 /*Mensagens de erro e sucesso*/
 
 .msg-sucesso {
-    background-color: #d4edda;
-    color: #155724;
-    border: 1px solid #c3e6cb;
-  }
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
 
 .msg-erro {
-    background-color: #f8d7da;
-    color: #721c24;
-    border: 1px solid #f5c6cb;
-  }
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
 
 .faq-container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 0 20px;
-  }
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
 
 .faq-item {
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 10px;
-  }
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 10px;
+}
 
 .faq-pergunta {
-    width: 100%;
-    background: none;
-    border: none;
-    text-align: left;
-    padding: 18px 10px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #000000;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+  padding: 18px 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .faq-pergunta::after {
-    content: '❯';
-    font-size: 0.8rem;
-  }
+  content: "❯";
+  font-size: 0.8rem;
+}
 
 .faq-resposta {
-    max-height: 0;    
-    overflow: hidden;
-    transition: max-height;
-  }
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height;
+}
 
-  .faq-resposta p {
-    padding: 0 10px 18px 10px;
-    margin: 0;
-    color: #000000;
-    line-height: 1.6;
-  }
+.faq-resposta p {
+  padding: 0 10px 18px 10px;
+  margin: 0;
+  color: #000000;
+  line-height: 1.6;
+}
 
 .faq-item.ativo .faq-resposta {
-    max-height: 200px;
-  }
+  max-height: 200px;
+}
 
 .faq-item.ativo .faq-pergunta::after {
-    transform: rotate(90deg);
-  }
+  transform: rotate(90deg);
+}
 
-.lista-pessoas{
-    text-align: center;
-  }
+.lista-pessoas {
+  text-align: center;
+}
 
 /*Caixas de texto funcionais em outros dispositivos*/
 
@@ -146,7 +146,7 @@ body{
   }
 
   .caixa-flutuante {
-    position: static;        
+    position: static;
     width: calc(100% - 20px);
     margin: 20px auto;
     right: auto;

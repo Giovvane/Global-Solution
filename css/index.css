@@ -1,32 +1,32 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Estilização de imagem*/
 
-.image-index{
+.image-index {
   display: block;
   max-width: 500px;
   max-height: 450px;
   margin: 20px auto;
 }
 
-.index-cabecalho{
+.index-cabecalho {
   text-align: center;
 }
 
-.index-texto{
+.index-texto {
   text-align: justify;
   padding: 5px;
 }
 
-.paginas-comp{
-    text-align: center;
+.paginas-comp {
+  text-align: center;
 }
 
-.outras-paginas{
-    display: inline-block;
-    padding: 5px;
+.outras-paginas {
+  display: inline-block;
+  padding: 5px;
 }
 
 /*Imagens funcional em outros dispositivos*/
@@ -47,14 +47,14 @@ body{
   }
 }
 
-.menu{
+.menu {
   display: block;
   max-width: 300px;
   max-height: 250px;
   margin: 20px auto;
 }
 
-.exemplos-texto{
+.exemplos-texto {
   text-align: center;
   padding: 5px;
 }

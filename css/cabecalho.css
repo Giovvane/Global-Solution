@@ -1,22 +1,22 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Estilização do cabeçalho*/
 
 .cabecalho {
-  background-color: #E67451; 
+  background-color: #e67451;
   padding: 15px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column; 
-  align-items: center;   
-  gap: 15px;       
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 .cabecalho_logo {
-  max-height: 80px;    
+  max-height: 80px;
   width: auto;
 }
 
@@ -25,15 +25,15 @@ body{
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;     
-  justify-content: center; 
-  gap: 10px;        
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 
 .cabecalho_bg {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #FFF0E8;
+  background-color: #fff0e8;
   color: #000000;
   text-decoration: none;
   border-radius: 5px;
@@ -48,7 +48,7 @@ body{
   .cabecalho {
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 50px;     
+    padding: 20px 50px;
   }
 }
 
@@ -56,26 +56,23 @@ body{
   .cabecalho {
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 50px;     
+    padding: 20px 50px;
   }
 
   .cabecalho_ul {
-    gap: 20px;         
+    gap: 20px;
   }
 }
 
 /*Logo aumenta quando passa o mouse por cima*/
 
-.cabecalho_logo:hover{
+.cabecalho_logo:hover {
   transform: scale(1.5);
 }
 
 /*Margem para o corpo do texto*/
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
-
-
-

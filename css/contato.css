@@ -1,106 +1,106 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+body {
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*Definição de área de contato*/
 
 .container-contato {
-    display: flex;
-    justify-content: flex-end; 
-    padding: 20px;
-    margin-right: 10rem;   
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-right: 10rem;
 }
 
 #meuFormulario {
-    display: flex;
-    flex-direction: column;    
-    gap: 15px;                 
-    width: 100%;
-    max-width: 400px;          
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 400px;
 }
 
-#meuFormulario input, 
+#meuFormulario input,
 #meuFormulario textarea {
-    width: 100%;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border: none;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: none;
+  box-sizing: border-box;
 }
 
 #meuFormulario button {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .container-pagina {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 100px;                     
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
 }
 
 .contatos {
-    display: flex;
-    flex-direction: column;         
-    gap: 15px;                                      
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .contatos h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .item-contato p {
-    font-size: 18px;
-    color: #333;
-    margin: 0;
+  font-size: 18px;
+  color: #333;
+  margin: 0;
 }
 
 .container-contato {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    max-width: 400px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 400px;
 }
 
 .item-contato {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .icone-contato {
-    width: 24px;        
-    height: 24px;      
-    object-fit: contain;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
-.contatar  {
-    font-size: 50px;
-    margin-right: 550px;
+.contatar {
+  font-size: 50px;
+  margin-right: 550px;
 }
 
 /*Página funcional em outros dispositivos*/
 
 @media screen and (max-width: 768px) {
-    .container-pagina {
-        flex-direction: column;
-        padding: 20px 40px;
-        gap: 30px;
-    }
+  .container-pagina {
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 30px;
+  }
 
-    .container-contato {
-        justify-content: flex-start;
-        margin-right: 0;
-        max-width: 100%;
-    }
+  .container-contato {
+    justify-content: flex-start;
+    margin-right: 0;
+    max-width: 100%;
+  }
 
-    #meuFormulario {
-        max-width: 100%;
-    }
+  #meuFormulario {
+    max-width: 100%;
+  }
 
-    .contatar {
+  .contatar {
     font-size: 20px;
     margin-right: 0;
     text-align: center;
@@ -109,28 +109,28 @@ body{
 }
 
 @media screen and (max-width: 768px) {
-    .container-pagina {
-        flex-direction: column;
-        padding: 20px 40px;
-        gap: 30px;
-    }
+  .container-pagina {
+    flex-direction: column;
+    padding: 20px 40px;
+    gap: 30px;
+  }
 
-    .container-contato {
-        justify-content: center;  
-        margin: 0 auto;          
-        max-width: 100%;
-        width: 100%;
-    }
+  .container-contato {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
 
-    #meuFormulario {
-        max-width: 100%;
-        margin: 0 auto;          
-    }
+  #meuFormulario {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 
-    .contatar {
-        font-size: 20px;
-        margin-right: 0;
-        text-align: center;
-        width: 100%;
-    }
+  .contatar {
+    font-size: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+  }
 }

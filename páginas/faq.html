@@ -2,71 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../css/main.css" />
-    <script src="../js/faq.js"></script>
+  <link rel="stylesheet" href="../css/main.css" />
+  <script src="../js/faq.js"></script>
 
-    <title>FAQ</title>
+  <title>FAQ</title>
 </head>
 
 <body>
-    <header class="cabecalho">
-        <a href="index.html">
-            <img src="../assets/Logo FT.jpg" alt="Logo" class="cabecalho_logo">
-        </a>
-       <nav class="cabecalho_nav">
-          <ul class="cabecalho_ul">
-            <li class="cabecalho_li"><a class="cabecalho_bg" href="./sobre.html">Sobre</a></li>
-            <li class="cabecalho_li"><a class="cabecalho_bg" href="./integrantes.html">Integrantes</a></li>
-            <li class="cabecalho_li"><a class="cabecalho_bg" href="./faq.html">FAQ</a></li>
-            <li class="cabecalho_li"><a class="cabecalho_bg" href="./contato.html">Contato</a></li>
-          </ul>
-        </nav>
-    </header>
+  <header class="cabecalho">
+    <a href="index.html">
+      <img src="../assets/Logo FT.jpg" alt="Logo" class="cabecalho_logo">
+    </a>
+    <nav class="cabecalho_nav">
+      <ul class="cabecalho_ul">
+        <li class="cabecalho_li"><a class="cabecalho_bg" href="./sobre.html">Sobre</a></li>
+        <li class="cabecalho_li"><a class="cabecalho_bg" href="./integrantes.html">Integrantes</a></li>
+        <li class="cabecalho_li"><a class="cabecalho_bg" href="./faq.html">FAQ</a></li>
+        <li class="cabecalho_li"><a class="cabecalho_bg" href="./contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<section class="faq-container">
- <h2>Perguntas Frequentes</h2>
+  <section class="faq-container">
+    <h2>Perguntas Frequentes</h2>
 
- <div class="faq-item">
-  <button class="faq-pergunta">O que é o Future Thinking?</button>
-  <div class="faq-resposta">
-   <p>O Future Thinking tem a ideia de aumentar a precição da previsão do clima, para que nenhuma pessoa seja prejudicada, e torne o dia-a-dia 
-    baseado nisso mais simples e seguro.</p>
+    <div class="faq-item">
+      <button class="faq-pergunta">O que é o Future Thinking?</button>
+      <div class="faq-resposta">
+        <p>O Future Thinking tem a ideia de aumentar a precição da previsão do clima, para que nenhuma pessoa seja
+          prejudicada, e torne o dia-a-dia
+          baseado nisso mais simples e seguro.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-pergunta">Quem que seriam os mais beneficiados?</button>
+      <div class="faq-resposta">
+        <ol class="lista-pessoas">
+          <li>Agricultores</li>
+          <li>Trabalhadores de cidade grande no geral</li>
+          <li>Telespectadores de jornais</li>
+          <li>Usuários de aplicativos de clima/tempo</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-pergunta">Como faço para ajudar o projeto?</button>
+      <div class="faq-resposta">
+        <p>Você pode compartilhar nossos posts das redes sociais, assim fazendo mais pessoas nos conhecerem.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="caixa-flutuante">
+    <h3>Deixe seu comentário</h3>
+    <textarea id="texto-usuario" placeholder="Digite algo aqui..."></textarea>
+    <button id="btn-enviar-caixa">Enviar</button>
+
+    <div id="caixa-sucesso" class="msg-discreta msg-sucesso">Enviado com sucesso!</div>
+    <div id="caixa-erro" class="msg-discreta msg-erro">Por favor, digite uma mensagem.</div>
   </div>
- </div>
-
-  <div class="faq-item">
-  <button class="faq-pergunta">Quem que seriam os mais beneficiados?</button>
-  <div class="faq-resposta">
-    <ol class="lista-pessoas">
-      <li>Agricultores</li>
-      <li>Trabalhadores de cidade grande no geral</li>
-      <li>Telespectadores de jornais</li>
-      <li>Usuários de aplicativos de clima/tempo</li>
-    </ol>
-  </div>
-</div>
-
-  <div class="faq-item">
-  <button class="faq-pergunta">Como faço para ajudar o projeto?</button>
-  <div class="faq-resposta">
-   <p>Você pode compartilhar nossos posts das redes sociais, assim fazendo mais pessoas nos conhecerem. 
-   </p>
-  </div>
-
- </div>
-</section> 
-
-<div class="caixa-flutuante">
- <h3>Deixe seu comentário</h3>
- <textarea id="texto-usuario" placeholder="Digite algo aqui..."></textarea>
- <button id="btn-enviar-caixa">Enviar</button>
-
- <div id="caixa-sucesso" class="msg-discreta msg-sucesso">Enviado com sucesso!</div>
- <div id="caixa-erro" class="msg-discreta msg-erro">Por favor, digite uma mensagem.</div>
-</div>
 
 </body>
+
 </html>
