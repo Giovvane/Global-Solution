@@ -9,8 +9,10 @@ No projeto utilizamos mais html e css, com algumas funções js.
 Sobre pastas, temos as pastas padrões, de páginas(html), arquivos css para cada página html, e js para algumas (página de contato e faq), que possuem funções.
 
 Sistema Python
+<img width="888" height="628" alt="Image" src="https://github.com/user-attachments/assets/df91aa0d-1fe4-495d-82c3-b2b3a270cb24" />
 
 Sistema Java
+<img width="532" height="576" alt="Image" src="https://github.com/user-attachments/assets/7aaf7aae-20c3-4910-a1d0-047966f8e23f" />
 
 ---1TDSPG---
 
