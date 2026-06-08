@@ -46,3 +46,15 @@ body{
     margin: 15px auto;
   }
 }
+
+.menu{
+  display: block;
+  max-width: 300px;
+  max-height: 250px;
+  margin: 20px auto;
+}
+
+.exemplos-texto{
+  text-align: center;
+  padding: 5px;
+}
