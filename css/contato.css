@@ -95,23 +95,38 @@ body{
     #meuFormulario {
         max-width: 100%;
     }
+
+    .contatar {
+    font-size: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .container-pagina {
-        padding: 15px 15px;
-        gap: 20px;
+        flex-direction: column;
+        padding: 20px 40px;
+        gap: 30px;
     }
 
-    h1 {
-        font-size: 28px;
+    .container-contato {
+        justify-content: center;  
+        margin: 0 auto;          
+        max-width: 100%;
+        width: 100%;
     }
 
-    .contatos h2 {
+    #meuFormulario {
+        max-width: 100%;
+        margin: 0 auto;          
+    }
+
+    .contatar {
         font-size: 20px;
-    }
-
-    .item-contato p {
-        font-size: 14px;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
     }
 }

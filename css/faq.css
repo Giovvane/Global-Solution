@@ -123,3 +123,28 @@
   .lista-pessoas{
     text-align: center;
   }
+
+@media screen and (max-width: 320px) {
+  .faq-container {
+    padding: 0 10px;
+    margin: 20px auto;
+  }
+
+  .faq-pergunta {
+    font-size: 0.95rem;
+    padding: 14px 8px;
+  }
+
+  .caixa-flutuante {
+    position: static;        
+    width: calc(100% - 20px);
+    margin: 20px auto;
+    right: auto;
+    bottom: auto;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .caixa-flutuante textarea {
+    height: 70px;
+  }
+}
