@@ -2,6 +2,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*Define as caixas dos integrantes*/
+
 .integrantes_container {
     display: flex;
     flex-wrap: wrap;          
@@ -64,6 +66,8 @@ h4 {
     margin-top: -10px;
     margin-bottom: 50px;
 }
+
+/*Definição de links*/
 
 .github{
     border: 3px solid #E67451;

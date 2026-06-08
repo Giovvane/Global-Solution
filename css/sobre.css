@@ -2,6 +2,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*Definição de imagem*/
+
 .image-sobre{
     display: block;
     max-width: 450px;

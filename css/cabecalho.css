@@ -1,3 +1,9 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Estilização do cabeçalho*/
+
 .cabecalho {
   background-color: #E67451; 
   padding: 15px;
@@ -36,6 +42,8 @@
   font-family: sans-serif;
 }
 
+/*Cabeçalho funcional em outros dispositivos*/
+
 @media screen and (min-width: 768px) {
   .cabecalho {
     flex-direction: row;
@@ -56,9 +64,13 @@
   }
 }
 
+/*Logo aumenta quando passa o mouse por cima*/
+
 .cabecalho_logo:hover{
   transform: scale(1.5);
 }
+
+/*Margem para o corpo do texto*/
 
 body{
   margin: 0;

@@ -1,3 +1,9 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Estilização de imagem*/
+
 .image-index{
   display: block;
   max-width: 500px;
@@ -22,6 +28,8 @@
     display: inline-block;
     padding: 5px;
 }
+
+/*Imagens funcional em outros dispositivos*/
 
 @media screen and (max-width: 768px) {
   .image-index {
